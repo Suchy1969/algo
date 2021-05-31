@@ -1,75 +1,76 @@
-body, html {
-    width: 100%;
-    height: 100%;
-    padding:0px;
-    background-image: url('tlo-do-strony-internetowej.jpg');
-    margin:0px;
-    z-index:-2;
-}
-.baner{
-    height:5%;
-    width:100%;
-    background-color: grey;
-   margin-top:0px;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <div class="baner">
+        <h3>
+            ALGORYTMY
+        </h3>
+
+    </div>
+    <div class="odnosniki">
 
 
-}
-h2{
-    text-align:center;
-font-size:40px;
-}
-h3 {
-    color: white;
-    font-family: DejaVu Sans Mono, monospace;
-    font-size: 50px;
-    text-align:center;
-    margin-top:0px;
-}
-.drzewo {
-    width:50%;
-    height:auto;
-    border-radius:15px;
-    background-color: rgba(128, 128, 128, 0.4);
-    margin-left:auto;
-    margin-right: auto;
-    margin-top: 20px;
-    color:white;
-    font-size:large;
-    padding:5px;
-    border:5px rgba(0,0,0,0.5) solid;
 
-}
-.schemat{
+        <a href="#dzw" class="odnosnik"><h1>DRZEWO DECYZYJNE</h1></a>
 
-}
-.imgrozmiar{
-    width:50%;
-    height:auto;
-    border-radius:10px;
-}
-.odnosnik {
-    width: 250px;
-    height: 200px;
-    background-color: rgba(255, 255, 255,0.5);
-   border-radius:10px;
-   text-decoration:none;
 
-   
-}
-.odnosniki{
-    width :50%;
-    height:18%;
-    background-color: rgba(0,0,0,0.5);
-    border-radius:15px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    padding:5px;
-    display:flex;
-    justify-content:space-evenly;
-}
-h1{
-    font-size: 35px;
-    text-align: center;
-    color:white;
-}
+
+        <a href="#schmt" class="odnosnik"><h1>SCHEMAT BLOKOWY</h1></a>
+
+
+        <a href="#psdk" class="odnosnik"><h1>PSEUDOKOD</h1></a>
+
+
+        <a href="#dzw" class="odnosnik"><h1>LISTA KROKÓW</h1></a>
+
+
+    </div>
+    <a id="dzw"></a>
+    <div class="drzewo">
+
+        <h2> Drzewo decyzyjne: </h2>
+        Drzewo decyzyjne – graficzna metoda wspomagania procesu decyzyjnego, stosowana w teorii decyzji. Algorytm drzew decyzyjnych
+        jest również stosowany w uczeniu maszynowym do pozyskiwania wiedzy na podstawie przykładów.<br />
+        <img src="drzewo.png" class="imgrozmiar" />
+    </div>
+    <a id="schmt"></a>
+    <div class="drzewo">
+        <h2> Schemat blokowy: </h2>
+        narzędzie służące do przedstawienia kolejnych czynności w projektowanym algorytmie. Jest to diagram, na którym procedura, system lub program komputerowy są reprezentowane przez opisane figury geometryczne połączone strzałkami (niekiedy tylko liniami) zgodnie z kolejnością wykonywania czynności wynikających z przyjętego algorytmu rozwiązania zadania.<br />
+
+        Schemat blokowy powinien zapewniać:<br />
+        <ul>
+            <li>  elastyczność zapisów</li>
+
+            <li>  możliwość zapisu z użyciem składu wybranego języka programowania</li>
+
+            <li>  łatwą kontrolę poprawności algorytmu.</li>
+
+        </ul>
+        Schematy blokowe pozwalają na prostą zamianę instrukcji na instrukcje programu komputerowego.<br />
+
+        <img src="1200px-LampFlowchart-pl.svg.png" class="imgrozmiar" />
+    </div>
+    <a id="psdk"></a>
+    <div class="drzewo">
+        <h2> Pseudokod: </h2>
+        Pseudokodem nazywany jest taki sposób zapisu algorytmu, który zachowując strukturę charakterystyczną dla kodu zapisanego w
+        języku programowania, rezygnuje ze ścisłych reguł składniowych na rzecz prostoty i czytelności.<br />
+
+        <img src="2017.11 Pseudokod.png" class="imgrozmiar" />
+    </div> 
+    <div class="drzewo">
+        <h2> Lista kroków: </h2>
+        Na liście kroków każda operacja, którą należy wykonać, jest zapisywana w postaci numerowanego kroku. Lista kroków pozwała dokładnie zdefiniować cały algorytm.
+        <br />
+       
+        <img src="slide_8.jpg" class="imgrozmiar"/>
+
+    </div>
+</body>
+</html>
